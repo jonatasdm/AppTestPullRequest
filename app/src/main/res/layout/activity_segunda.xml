@@ -21,6 +21,11 @@
         android:text="ola mundo"
         android:textSize="35dp"
         android:textColor="#AF677E"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button"
+        android:backgroundTint="#424242"
 
 </LinearLayout>
 
