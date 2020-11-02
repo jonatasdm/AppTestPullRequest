@@ -2,6 +2,7 @@
 
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,16 +11,16 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Hello World!"
         android:textColor="#aa00bb"
         android:textSize="35dp"
         android:gravity="center"
          />
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:textColor="#000be3"
         android:text="Olá Mundo!"
         android:textSize="35dp"
@@ -31,6 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
+        app:backgroundTint="#494949"
         tools:layout_editor_absoluteX="159dp"
         tools:layout_editor_absoluteY="419dp" />
 </LinearLayout>
