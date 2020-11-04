@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:text="ola mundo"
         android:textSize="35dp"
-        android:textColor="#AF677E"/>
+        android:textColor="#0F9C05"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
